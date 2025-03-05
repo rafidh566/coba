@@ -55,7 +55,7 @@ func main() {
 
 	// Replace with your actual Supabase/PostgreSQL credentials.
 	// For Supabase, you can find these in your project settings.
-	connStr := "postgres://supabase:Ugierafie566@?@localhost:5432/postgres?sslmode=disable"
+	connStr := "postgres://supabase:Ugierafie566@?@localhost:5432/postgres?sslmode=enable"
 
 	db, err := sql.Open("postgres", connStr)
 	if err != nil {
